@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+h1,h2,h3,p,label{
+    font-family: 'Arial';
+}
+
+#main{
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    margin: 10px auto;
+    border: 3px solid;
+    border-radius: 50px;
+    border-color: black;
+}
+
+#numero{
+    margin: 30px auto;
+}
+
+#label{
+    text-align: start;
+}
