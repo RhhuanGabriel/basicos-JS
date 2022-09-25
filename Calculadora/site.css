@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
-h1,h2,h3,p,label{
+h1,h2,h3,p,label,button{
     font-family: 'Arial';
 }
 
@@ -8,7 +8,7 @@ h1,h2,h3,p,label{
     text-align: center;
     height: 400px;
     width: 400px;
-    margin: 10px auto;
+    margin: auto;
     border: 3px solid;
     border-radius: 50px;
     border-color: black;
@@ -18,6 +18,19 @@ h1,h2,h3,p,label{
     margin: 30px auto;
 }
 
-#label{
-    text-align: start;
+#botao{
+    font-size: 40px;
+    background-color: #33A46A;
+    border-color: #33A46A;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+#botaoLinha{
+    padding-top: 30px;
+}
+
+#foto{
+    
 }

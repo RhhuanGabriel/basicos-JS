@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Imagens/Calculadora.png">
     <link rel="stylesheet" href="site.css">
     <title>Minha calculadora</title>
 </head>
 <body>
     
-    <h1>Calculadora</h1>
+    <h1>Calculadora simples</h1>
     <h3>Usando HTML, CSS e JavaScrit</h3>
 
     <br>
@@ -28,7 +29,28 @@
             <input type="number" id="n2" required />
         </div>
 
+        <div>
+
+            <div id="botaoLinha" class="row">
+                <button onclick="Somar()" id="botao">+</button>
+                <button onclick="Subtrair()" id="botao">-</button>
+            </div>
+
+            <div class="row">
+                <br>
+                <button onclick="Multiplicar()" id="botao">x</button>
+                <button onclick="Dividir()" id="botao">÷</button>
+            </div>
+
+        </div>
+
+        <h3>O resultado é: <span id="resultado"></span></h3>
+
     </form>
+
+    <script src="index.js">
+
+    </script>
 
 </body>
 </html>
