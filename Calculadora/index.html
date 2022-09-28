@@ -11,7 +11,7 @@
 <body>
     
     <h1>Calculadora simples</h1>
-    <h3>Usando HTML, CSS e JavaScrit</h3>
+    <h3>Usando HTML, CSS e JavaScrpit</h3>
 
     <br>
 
@@ -28,21 +28,29 @@
             <br>
             <input type="number" id="n2" required />
         </div>
+        
+        <table id="operacoes">
+            <tr>
+                <td>
+                    <button type="button" onclick="Somar()" id="botao">+</button>
+                </td>
+                <td>
+                    <button type="button" onclick="Subtrair()" id="botao">-</button>
+                </td>
+            </tr>
 
-        <div>
-
-            <div id="botaoLinha" class="row">
-                <button onclick="Somar()" id="botao">+</button>
-                <button onclick="Subtrair()" id="botao">-</button>
-            </div>
-
-            <div class="row">
-                <br>
-                <button onclick="Multiplicar()" id="botao">x</button>
-                <button onclick="Dividir()" id="botao">÷</button>
-            </div>
-
-        </div>
+            <tr>
+                <td>
+                    <button type="button" onclick="Multiplicar()" id="botao">x</button>
+                </td>
+                <td>
+                    <button type="button" onclick="Dividir()" id="botao">÷</button>
+                </td>
+                <td>
+                    <button type="button" onabort="Resetar()" id="botaoReset"><img src="/Calculadora/Imagens/Resetar.png" alt="Resetar" width="20" height="20"></button>
+                </td>
+            </tr> 
+        </table>
 
         <h3>O resultado é: <span id="resultado"></span></h3>
 
