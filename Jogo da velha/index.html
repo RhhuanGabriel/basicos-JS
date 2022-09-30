@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    
+    <form class="main">
+
+        <div class="titulo">
+            <h1>
+                Jogo da velha
+            </h1>
+        </div>
+        <hr>
+        <div class="display">
+            Turno do jogador <span id="jogador"></span>
+        </div>
+
+        <table class="jogo">
+            <tr>
+                <td>
+                    <div class="tile">a</div>
+                </td>
+
+                <td>
+                    <div class="tile"></div>
+                </td>
+
+                <td>
+                    <div class="tile"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="tile"></div>
+                </td>
+
+                <td>
+                    <div class="tile"></div>
+                </td>
+
+                <td>
+                    <div class="tile"></div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="tile"></div>
+                </td>
+
+                <td>
+                    <div class="tile"></div>
+                </td>
+
+                <td>
+                    <div class="tile">a</div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="anunciador">
+            <span id="anunciador"><p>a</p></span>
+        </div>
+
+        <div class="resetBtn">
+            <button type="button" id="resetBtn">Reiniciar</button>
+        </div>
+
+    </form>
+
+
+
+    <script src="index.js">
+
+    </script>
+
+</body>
+</html>
